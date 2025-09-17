@@ -375,7 +375,7 @@ if 'username' not in st.session_state:
 if 'role' not in st.session_state:
     st.session_state.role = ""
 if 'users' not in st.session_state:
-    # Use canonical role IDs in the fake user database
+    
     st.session_state.users = {
         "sai_admin": {"password": "admin123", "role": CANONICAL_ROLES["sai_member"]},
         "athlete_1": {"password": "pass1", "role": CANONICAL_ROLES["athlete"]}
