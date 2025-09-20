@@ -1,8 +1,0 @@
-streamlit
-opencv-python
-mediapipe
-numpy
-pandas
-altair
-av
-streamlit-webrtc
