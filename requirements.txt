@@ -13,13 +13,7 @@ plotly==6.0.0
 prophet==1.2.0
 
 # Computer vision
-opencv-python-headless==4.8.1.78  # use headless for Cloud
+opencv-python-headless==4.8.1.78
 
-# Optional dependencies for Streamlit display
-rich==14.1.2
-markdown-it-py==4.0.0
-mdurl==0.1.2
-pygments==2.19.2
-
-# Upgrade pip to avoid install issues
+# Optional: upgrade pip
 pip==25.2
