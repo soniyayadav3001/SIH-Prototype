@@ -1,9 +1,25 @@
-streamlit==1.26.0
-numpy==1.26.2
+# Streamlit main
+streamlit==1.27.0
+
+# Data processing
+numpy==1.26.0
 pandas==2.1.1
-opencv-contrib-python-headless==4.8.1.78
-mediapipe==0.10.3
-streamlit-webrtc==0.48.0
-protobuf==4.24.1
-absl-py==1.4.0
-flatbuffers==23.5.26
+scipy==1.11.1
+
+# Plotting
+plotly==6.0.0
+
+# Time series forecasting
+prophet==1.2.0
+
+# Computer vision
+opencv-python-headless==4.8.1.78  # use headless for Cloud
+
+# Optional dependencies for Streamlit display
+rich==14.1.2
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pygments==2.19.2
+
+# Upgrade pip to avoid install issues
+pip==25.2
