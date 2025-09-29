@@ -1,19 +1,7 @@
-# Streamlit main
 streamlit==1.27.0
-
-# Data processing
-numpy==1.26.0
-pandas==2.1.1
-scipy==1.11.1
-
-# Plotting
-plotly==6.0.0
-
-# Time series forecasting
-prophet==1.2.0
-
-# Computer vision
-opencv-python-headless==4.8.1.78
-
-# Optional: upgrade pip
-pip==25.2
+numpy
+pandas
+scipy
+opencv-python-headless
+prophet
+plotly
