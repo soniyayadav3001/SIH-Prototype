@@ -5,3 +5,4 @@ scipy
 prophet
 plotly
 opencv-python-headless
+mediapipe
